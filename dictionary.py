@@ -5,7 +5,7 @@ my_dictionary = {
 "color": "red"
 }
 print(f"Initial Dictionary: {my_dictionary}")
-Instructions:
+#Instructions:
 #1. Access Specific Value by Key:
 # Access the value associated with the key "model"
 model_name = my_dictionary["model"]
@@ -16,16 +16,13 @@ print(f"Year: {year_value}")
 #2. Access Keys, Values, and Items of Dictionary:
 # Get all keys
 all_keys = my_dictionary.keys()
-print(f"All Keys: {list(all_keys)}") # Convert to list for clear
-display
+print(f"All Keys: {list(all_keys)}") # Convert to list for clear display
 # Get all values
 all_values = my_dictionary.values()
-print(f"All Values: {list(all_values)}") # Convert to list for clear
-display
+print(f"All Values: {list(all_values)}") # Convert to list for clear display
 # Get all key-value pairs (items)
 all_items = my_dictionary.items()
-print(f"All Items: {list(all_items)}") # Convert to list for clear
-display
+print(f"All Items: {list(all_items)}") # Convert to list for clear display
 #3. Add/Change Dictionary Items:
 # Add a new key-value pair "engine": "V8"
 my_dictionary["engine"] = "V8"
@@ -36,8 +33,7 @@ print(f"After changing 'color': {my_dictionary}")
 #4. Remove Dictionary Items (pop() and del):
 # Remove the item with the key "year" using pop()
 removed_year = my_dictionary.pop("year")
-print(f"After pop('year'): {my_dictionary}, Removed Year:
-{removed_year}")
+print(f"After pop('year'): {my_dictionary}, Removed Year:{removed_year}")
 # Remove the item with the key "brand" using del
 del my_dictionary["brand"]
 print(f"After del my_dictionary['brand']: {my_dictionary}")
